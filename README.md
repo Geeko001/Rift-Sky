@@ -31,40 +31,6 @@ PWA: vite-plugin-pwa (Service Workers & Manifest)
 
 Android Build: Bubblewrap CLI (PWA to .aab)
 
-🚀 Getting Started
-Prerequisites
-Node.js (v18+)
-
-npm or yarn
-
-Installation
-Clone the Repo:
-
-Bash
-
-git clone https://github.com/your-username/rift-sky.git
-cd rift-sky
-Install Dependencies:
-
-Bash
-
-npm install
-Run Development Server:
-
-Bash
-
-npm run dev
-📦 Building for Android (.aab)
-To convert this PWA into a Play Store-ready Android App Bundle:
-
-Deploy the app to a HTTPS URL (e.g., Vercel).
-
-Use Bubblewrap CLI:
-
-Bash
-
-npx @bubblewrap/cli init --manifest https://your-app-url.vercel.app/manifest.webmanifest
-npx @bubblewrap/cli build
 🛡️ License
 Distributed under the MIT License. See LICENSE for more information.
 
